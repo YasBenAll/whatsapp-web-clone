@@ -1,6 +1,6 @@
 import Icon from "components/Icon";
 import React from "react";
-import media from "assets/images/women.jpeg";
+import media from "assets/images/obama-with-joe.jpg";
 import formatTime from "utils/formatTime";
 
 const Convo = ({ lastMsgRef, messages: allMessages }) => {

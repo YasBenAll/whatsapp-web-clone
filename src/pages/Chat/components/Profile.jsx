@@ -9,7 +9,7 @@ const groups = [
 		name: "Group 1",
 		avatar: groupAvatar,
 		members:
-			"Michelle Obama, Sandra Bullock, Kerry Washington, Beyonce Knowles, Kamala Harris, You",
+			"Michelle, Sandra Bullock, Kerry Washington, Beyonce Knowles, Kamala Harris, You",
 	},
 	{
 		name: "Group 2",
@@ -91,9 +91,9 @@ const Profile = ({ user }) => {
 				</div>
 				<ul>
 					<li className="profile__about-item">
-						Out here saving the world, one block of code at a time.
+						Available.
 					</li>
-					<li className="profile__about-item">+23423456789</li>
+					<li className="profile__about-item">+12025886500</li>
 				</ul>
 			</div>
 

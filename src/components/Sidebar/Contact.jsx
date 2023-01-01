@@ -2,7 +2,7 @@ import React from "react";
 import Icon from "components/Icon";
 import { Link } from "react-router-dom";
 import formatTime from "utils/formatTime";
-import { useUsersContext } from "context/usersContext";
+import { useUsersContext } from "data/usersContext";
 
 const Contact = ({ contact }) => {
 	const { setUserAsUnread } = useUsersContext();

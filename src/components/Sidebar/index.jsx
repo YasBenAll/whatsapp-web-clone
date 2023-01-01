@@ -1,14 +1,15 @@
 import React from "react";
 import "./styles/main.css";
-import avatar from "assets/images/profile-picture-girl-1.jpeg";
+import avatar from "assets/images/profile-picture.jpg";
 import Icon from "components/Icon";
 import Alert from "./Alert";
 import Contact from "./Contact";
 import OptionsBtn from "components/OptionsButton";
-import { useUsersContext } from "context/usersContext";
+import { useUsersContext } from "data/usersContext";
 
 const Sidebar = () => {
 	const { users: contacts } = useUsersContext();
+	console.log(contacts)
 	return (
 		<aside className="sidebar">
 			<header className="header">

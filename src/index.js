@@ -5,7 +5,7 @@ import App from "./App";
 import reportWebVitals from "./reportWebVitals";
 
 import "./assets/css/index.css";
-import { UsersProvider } from "context/usersContext";
+import { UsersProvider } from "data/usersContext";
 import { SocketProvider } from "context/socketContext";
 
 ReactDOM.render(

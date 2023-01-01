@@ -1,6 +1,6 @@
 import { createContext, useContext, useEffect, useState } from "react";
 import contacts from "data/contacts";
-import { useSocketContext } from "./socketContext";
+import { useSocketContext } from "../context/socketContext";
 
 const UsersContext = createContext();
 

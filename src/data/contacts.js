@@ -1,6 +1,7 @@
-import ppGirl1 from "assets/images/profile-picture-girl-1.jpeg";
+import ppGirl1 from "assets/images/profile-picture.jpg";
 import ppGirl2 from "assets/images/profile-picture-girl-2.jpeg";
 import ppGirl3 from "assets/images/profile-picture-girl-3.jpeg";
+import obama from "assets/images/profile-picture-obama.jpg";
 import ppGirl4 from "assets/images/profile-picture-girl-4.jpeg";
 import ppBoy1 from "assets/images/profile-picture-boy-1.jpeg";
 import ppBoy2 from "assets/images/profile-picture-boy-2.jpeg";
@@ -10,105 +11,59 @@ import getRandomSentence from "utils/getRandomSentence";
 const users = [
 	{
 		id: 1,
-		profile_picture: ppGirl3,
-		name: "Love of my life ❤️💜",
-		phone_number: "+2348123456789",
-		whatsapp_name: "Beyonce",
+		profile_picture: obama,
+		name: "Barack Obama",
+		phone_number: "+1234123456781",
 		unread: 3,
 		messages: {
-			"04/06/2021": [
-				{
-					content: getRandomSentence(),
-					sender: 1,
-					time: "08:11:26",
-					status: null,
-				},
-				{
-					content: getRandomSentence(),
-					sender: null,
-					time: "08:15:45",
-					status: "read",
-				},
-				{
-					content: getRandomSentence(),
-					sender: 1,
-					time: "09:11:26",
-					status: null,
-				},
-				{
-					content: getRandomSentence(),
-					sender: null,
-					time: "09:15:45",
-					status: "read",
-				},
-			],
-
 			YESTERDAY: [
 				{
-					content: getRandomSentence(),
+					content: "Ey u up?",
 					sender: 1,
 					time: "08:11:26",
 					status: null,
 				},
 				{
-					content: getRandomSentence(),
+					content: "???",
 					sender: null,
 					time: "08:15:45",
 					status: "read",
 				},
 				{
-					content: getRandomSentence(),
+					content: "It's me ya boy, Obama.",
+					sender: 1,
+					time: "09:09:26",
+					status: null,
+				},
+				{
+					content: "Is this for real??",
+					sender: null,
+					time: "09:10:45",
+					status: "read",
+				},
+				{
+					content: "Yes, greetings from Prez Joe btw. He'll always be the Veep to my Prez though 😎",
 					sender: 1,
 					time: "09:11:26",
 					status: null,
 				},
 				{
-					content: getRandomSentence(),
-					sender: null,
-					time: "09:15:45",
-					status: "read",
+					image: true,
+					sender: 1,
+					time: "09:11:36",
+					status: null,
 				},
 			],
 
 			TODAY: [
 				{
-					content: getRandomSentence(),
+					content: "Hey there Barack. Do you have some time to ask some questions of mine?",
 					sender: null,
-					time: "08:10:26",
-					status: null,
-				},
-				{
-					content: getRandomSentence(),
-					sender: 1,
-					time: "08:11:26",
-					status: null,
-				},
-				{
-					image: true,
-					sender: 1,
-					time: "09:12:26",
-					status: null,
-				},
-				{
-					content: getRandomSentence(),
-					sender: null,
-					time: "08:12:45",
+					time: "09:20:26",
 					status: "read",
 				},
 				{
-					image: true,
-					sender: null,
-					time: "09:13:26",
-					status: null,
-				},
-				{
-					content: getRandomSentence(),
-					sender: 1,
-					time: "09:20:26",
-					status: null,
-				},
-				{
-					content: getRandomSentence(),
+					content: "I've got some time left. What would you like to ask?",
 					sender: 1,
 					time: "09:21:26",
 					status: null,
@@ -122,7 +77,7 @@ const users = [
 	{
 		id: 2,
 		profile_picture: ppGirl2,
-		name: "Karen Okonkwo",
+		name: "Janice",
 		phone_number: "+2348123456789",
 		whatsapp_name: "Karen O.",
 		unread: 0,
@@ -208,10 +163,10 @@ const users = [
 	},
 	{
 		id: 3,
-		profile_picture: ppGirl1,
-		name: "Titilayo Bello",
+		profile_picture: ppGirl4,
+		name: "Tina",
 		phone_number: "+2348123456789",
-		whatsapp_name: "titi123",
+		whatsapp_name: "",
 		unread: 0,
 		messages: {
 			"04/06/2021": [
@@ -314,7 +269,7 @@ const users = [
 	{
 		id: 4,
 		profile_picture: ppBoy2,
-		name: "David Schwimmer",
+		name: "David",
 		phone_number: "+2348123456789",
 		whatsapp_name: "David",
 		unread: 1,
@@ -420,7 +375,7 @@ const users = [
 	{
 		id: 5,
 		profile_picture: ppBoy1,
-		name: "Daniel Oladeji",
+		name: "Daniel",
 		phone_number: "+2348123456789",
 		whatsapp_name: "Beyonce",
 		unread: 0,
@@ -619,7 +574,7 @@ const users = [
 	{
 		id: 7,
 		profile_picture: ppGirl3,
-		name: "Karen Okonkwo",
+		name: "Karen",
 		phone_number: "+2348123456789",
 		whatsapp_name: "Karen",
 		unread: 0,
@@ -712,8 +667,8 @@ const users = [
 
 	{
 		id: 8,
-		profile_picture: ppGirl4,
-		name: "Beyoncé Knowles",
+		profile_picture: ppGirl1,
+		name: "Beatrice",
 		phone_number: "+2348123456789",
 		whatsapp_name: "Beyonce",
 		unread: 0,
