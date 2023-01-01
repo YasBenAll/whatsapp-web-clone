@@ -9,7 +9,6 @@ import { useUsersContext } from "data/usersContext";
 
 const Sidebar = () => {
 	const { users: contacts } = useUsersContext();
-	console.log(contacts)
 	return (
 		<aside className="sidebar">
 			<header className="header">

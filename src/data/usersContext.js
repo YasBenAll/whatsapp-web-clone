@@ -34,7 +34,6 @@ const UsersProvider = ({ children }) => {
 	const fetchMessageResponse = (data) => {
 		setUsers((users) => {
 			const { userId, response } = data;
-
 			let userIndex = users.findIndex((user) => user.id === userId);
 			const usersCopy = JSON.parse(JSON.stringify(users));
 			const newMsgObject = {
@@ -69,11 +68,8 @@ const UsersProvider = ({ children }) => {
 			time: new Date().toLocaleTimeString(),
 			status: "delivered",
 		};
-
 		usersCopy[userIndex].messages.TODAY.push(newMsgObject);
-		setUsers(usersCopy);
-
-		socket.emit("fetch_response", { userId });
+		socket.emit("fetch_response", { userId, message });
 	};
 
 	return (

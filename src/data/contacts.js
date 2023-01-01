@@ -14,35 +14,23 @@ const users = [
 		profile_picture: obama,
 		name: "Barack Obama",
 		phone_number: "+1234123456781",
-		unread: 3,
+		unread: 0,
 		messages: {
-			YESTERDAY: [
+			TODAY: [
 				{
-					content: "Ey u up?",
-					sender: 1,
-					time: "08:11:26",
-					status: null,
-				},
-				{
-					content: "???",
-					sender: null,
-					time: "08:15:45",
-					status: "read",
-				},
-				{
-					content: "It's me ya boy, Obama.",
+					content: "How are you doing pal?",
 					sender: 1,
 					time: "09:09:26",
 					status: null,
 				},
 				{
-					content: "Is this for real??",
+					content: "Are you really Barack Obama?",
 					sender: null,
 					time: "09:10:45",
 					status: "read",
 				},
 				{
-					content: "Yes, greetings from Prez Joe btw. He'll always be the Veep to my Prez though 😎",
+					content: "Last time I checked I most definitely was 😎",
 					sender: 1,
 					time: "09:11:26",
 					status: null,
@@ -53,9 +41,6 @@ const users = [
 					time: "09:11:36",
 					status: null,
 				},
-			],
-
-			TODAY: [
 				{
 					content: "Hey there Barack. Do you have some time to ask some questions of mine?",
 					sender: null,
