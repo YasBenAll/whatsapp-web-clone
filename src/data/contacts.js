@@ -42,7 +42,7 @@ const users = [
 					status: null,
 				},
 				{
-					content: "Hey there Barack. Do you have some time to ask some questions of mine?",
+					content: "Hey there Barack. Do you have some time to answer some questions of mine?",
 					sender: null,
 					time: "09:20:26",
 					status: "read",
